@@ -1,0 +1,26 @@
+.kolom2{
+    background-color: #C7EADB;
+    margin: 40px 20px;
+    padding: 20px;
+    border-radius: 10px;
+    animation: fadeIn 1s ease ; 
+
+}
+
+@keyframes fadeIn {
+    0% {
+        transform: translateX(-100%); 
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+.icoon{
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.meer-informatie{
+    color: #057644;
+}
+

@@ -1,0 +1,115 @@
+body{
+    margin: 0;
+    padding: 0;
+
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+a,
+form,
+ul{
+    font-family: montserrat;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+h1{
+    color: white;
+}
+
+p{
+    color: #0E251B;
+    font-size: 16px
+}
+h3{
+    color: white;
+    font-size: 18px;
+}
+h4{
+    color: white;
+}
+
+
+/* header nav */
+nav{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    background-color: #057644;
+    align-items: center;
+    padding: 10px;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+}
+ul{
+list-style: none;
+display: flex;
+}
+
+li{
+margin-right: 10%;
+}
+
+.logo{
+    margin: 10px;
+    color: white;
+}
+
+.header-icoon{
+    height: 40px;
+}
+/* header nav */
+
+/* kolom-header */
+
+
+.homepage{
+    background-image: url("/fotos/header.png");
+}
+.elektrisch{
+    background-image: url("/fotos/header2.jpg");
+}
+.afval{
+    background-image: url("/fotos/header3.jpg");
+}
+
+
+.kolom1{
+    background-size: cover;
+    background-position: center;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.slogan{
+color: white;
+}
+
+/* kolom-header */
+
+
+/* footer */
+footer{
+    background-color: #057644;
+    padding: 20px 20px;
+}
+
+.contactinfo{
+    color: white;
+    margin-top: 10px;
+}
+
+/* footer */
+
+

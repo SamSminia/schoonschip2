@@ -1,0 +1,56 @@
+.kolom2{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    animation: fadeUp 1s ease-in-out forwards;
+    opacity: 0;
+    transform: translateY(30px);
+}
+
+@keyframes fadeUp {
+    0% {
+        opacity: 0;
+        transform: translateY(30px); /* Start offscreen */
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0); /* End onscreen */
+    }
+}
+
+.icoon-links,
+.icoon-rechts{
+    background-color: #C7EADB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    margin-top: 50px;
+  
+
+}
+
+
+
+
+
+.onderwerp-icoon{
+    color: #057644;
+}
+.icoon-kolom2{
+    width: 70px;
+    margin: 10px 0px;
+}
+
+.kolom3{
+    margin: 40px 10px;
+}
+.foto{
+    width: 200px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
